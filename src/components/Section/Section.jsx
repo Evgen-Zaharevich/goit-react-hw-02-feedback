@@ -1,4 +1,4 @@
-import { Title, Container } from 'components/Section/Section.styled';
+import { Title } from 'components/Section/Section.styled';
 
 export function Section({ title, children }) {
   return (

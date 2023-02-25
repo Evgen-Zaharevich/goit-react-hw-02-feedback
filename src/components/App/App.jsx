@@ -3,12 +3,7 @@ import { Statistics } from 'components/Statistics/Statistics';
 import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { Notification } from 'components/Notification/Notification';
 import { Section } from 'components/Section/Section';
-import {
-  ContainerApp,
-  Container,
-  Title,
-  icon,
-} from 'components/App/App.styled';
+import { ContainerApp, Container, Title } from 'components/App/App.styled';
 
 import { SiCoffeescript } from 'react-icons/si';
 
