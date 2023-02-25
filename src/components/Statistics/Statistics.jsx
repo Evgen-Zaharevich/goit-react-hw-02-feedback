@@ -14,7 +14,7 @@ export function Statistics({
         <Item>Neutral : {neutral}</Item>
         <Item>Bad : {bad}</Item>
         <Item>Total : {totalFeedback}</Item>
-        <Item>Positive feedback : {FeedbackPercentage}</Item>
+        <Item>Positive feedback : {FeedbackPercentage}%</Item>
       </List>
     </div>
   );
