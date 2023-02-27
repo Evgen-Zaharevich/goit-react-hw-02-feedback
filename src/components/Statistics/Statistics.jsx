@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Item, List } from 'components/Statistics/Statistics.styled';
 
 export function Statistics({
@@ -7,6 +8,8 @@ export function Statistics({
   totalFeedback,
   FeedbackPercentage,
 }) {
+  console.log(`📌  totalFeedback:`, totalFeedback);
+
   return (
     <div>
       <List>
@@ -19,3 +22,11 @@ export function Statistics({
     </div>
   );
 }
+
+Statistics.propTypes = {
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  totalFeedback: PropTypes.number.isRequired,
+  FeedbackPercentage: PropTypes.number.isRequired,
+};

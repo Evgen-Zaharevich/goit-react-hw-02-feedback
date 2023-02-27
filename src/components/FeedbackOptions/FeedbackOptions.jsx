@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {
   Button,
   ButtonContainer,
@@ -14,3 +16,8 @@ export function FeedbackOptions({ options, onLeaveFeedback }) {
     </ButtonContainer>
   );
 }
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
+};
